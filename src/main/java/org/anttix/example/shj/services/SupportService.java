@@ -15,7 +15,6 @@ import com.wordnik.swagger.annotations.Api;
 import com.wordnik.swagger.annotations.ApiOperation;
 import com.wordnik.swagger.annotations.ApiParam;
 
-
 /**
  * An example service that exposes custom logic via JAX-RS annotations.
  * 
@@ -37,7 +36,7 @@ public class SupportService {
 	public SupportCase.Status getStatus(@PathParam("id") Long id) {
 		try {
 			return scr.findOne(id).getStatus();
-		} catch(NullPointerException e) {
+		} catch (NullPointerException e) {
 			return null;
 		}
 	}
