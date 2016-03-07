@@ -39,7 +39,7 @@ public class TestDataGenerator {
 		final int ncat = 5;
 		final int nevent = 10;
 
-		log.info("Generating {} test categories", ncat);
+		//log.info("Generating {} test categories", ncat);
 		ArrayList<Category> categories = new ArrayList<Category>();
 		for(int i = 1; i <= ncat; i++) {
 			Category c = new Category();
@@ -48,7 +48,7 @@ public class TestDataGenerator {
 			categories.add(c);
 		}
 
-		log.info("Generating {} test events", nevent);
+		//log.info("Generating {} test events", nevent);
 		for(int i = 1; i <= nevent; i++) {
 			Event e = new Event();
 			e.setName("Event " + i);

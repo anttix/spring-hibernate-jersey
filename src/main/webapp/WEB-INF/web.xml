@@ -5,7 +5,7 @@
 
     <!--  TODO: convert to Spring WebApplicationInitializer -->
 
-    <display-name>Spring3 Hibernate4 JAX-RS REST services example</display-name>
+    <display-name>Spring4 Hibernate4 JAX-RS REST services example</display-name>
 
     <context-param>
         <param-name>contextClass</param-name>
